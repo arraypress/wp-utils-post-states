@@ -53,8 +53,8 @@ Here's how to define a custom getter function for the `Post_States_Manager`:
 require_once dirname(__FILE__) . '/vendor/autoload.php';
 
 $options_map = [
-    'landing_page' => __('Landing Page', 'text-domain'),
-    'featured_post' => __('Featured Post', 'text-domain'),
+    'landing_page'  => __( 'Landing Page', 'text-domain' ),
+    'featured_post' => __( 'Featured Post', 'text-domain' ),
     // Additional custom states as necessary
 ];
 
