@@ -1,0 +1,15 @@
+{
+  "name": "arraypress/wp-utils-post-states",
+  "description": "A WordPress library for defining and managing custom post states within the admin area, facilitating a more informative and intuitive post management experience.",
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "stable",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "ArrayPress\\Utils\\WP\\": "src/"
+    },
+    "files": ["src/Functions.php"]
+  }
+}
